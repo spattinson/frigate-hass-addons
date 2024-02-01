@@ -40,6 +40,7 @@ privileged:
   - PERFMON
 environment:
   CONFIG_FILE: /config/frigate.yml
+  LD_LIBRARY_PATH: /usr/lib/btbn-ffmpeg/lib
 schema:
   plus_api_key: password?
 services:
